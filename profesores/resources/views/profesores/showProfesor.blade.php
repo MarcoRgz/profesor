@@ -17,7 +17,7 @@
                      <th>ID</th>
                      <th>Nombre</th>
                      <th>Habilidad</th>
-                     <th>Especialidad</th> 
+                     <th>Especialidad</th>
                      <th>Extra</th>
                    </thead>
 

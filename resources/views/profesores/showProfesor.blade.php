@@ -4,12 +4,12 @@
 
 
 <div class="container">
-
+<link rel="shortcut icon" href="a.png" />
     <div class="row">
         <div class="col-md-12 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Programa carreras</div>
-
+                <div class="panel-heading">Habilidades del profesor</div>
+	
                 <div class="panel-body">
                  @if($profesor)
                   <table class="table table-hover ">
@@ -37,6 +37,7 @@
             </div>
             <br><br>
             <a href="{{ route('profesor.index') }}" class="btn btn-outline-primary btn-block"> Inicio </a>
+            <a href="{{ route('profesor.destroy', $profesor->id) }}" class="btn btn-outline-danger btn-block"> Eliminar profesor </a>
 
         </div>
     </div>

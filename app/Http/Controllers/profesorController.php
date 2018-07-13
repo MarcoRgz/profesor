@@ -96,9 +96,12 @@ class profesorController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Profesor $profesor )
     {
-        //
+       $profesor->delete();
+	
+	return redirect()->route('profesor.index')->with('succes','Profesor eliminado');
+
     }
 
 }

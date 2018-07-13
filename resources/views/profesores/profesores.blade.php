@@ -19,8 +19,8 @@
      <table class="table table-striped " id='table'>
     <thead>
       <tr>
-        <th>id</th>
-        <th>nombre</th>
+        <th>ID</th>
+        <th>Nombre</th>
         <th>Apellido Paterno</th>
         <th>Apellido Materno</th>
         <th>Centro</th>
@@ -54,7 +54,7 @@
     </table>
     @endif
     <br><br>
-    <a href="{{ route('home') }}" class="btn btn-primary btn-block "> Inicio </a>
+    <a href="{{ route('welcome') }}" class="btn btn-primary btn-block "> Inicio </a>
 
    </div>
 
