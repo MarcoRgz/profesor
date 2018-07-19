@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ app()->getLocale() }}">
+
 <head>
   <title>Profesores</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
   <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
@@ -54,7 +58,7 @@
     </table>
     @endif
     <br><br>
-    <a href="{{ route('welcome') }}" class="btn btn-primary btn-block "> Inicio</a>
+    <a href="{{ ('welcome') }}" class="btn btn-primary btn-block "> Inicio</a>
 
    </div>
 
