@@ -46,7 +46,7 @@
                       <div class="col-lg-4 col-center-block">
                       {!! Form::label('centro','Centro') !!}<br>
                       {!! Form::select
-                            ('centro', ['Seleccione su centro',
+                            ('centro', ['Seleccione su centro'=> 'disable' = true,
                                     'Centros Universitarios Temáticos' =>
                                       [
                                        'CUCEI' => 'CUCEI',
