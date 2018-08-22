@@ -43,44 +43,44 @@
 
 
 
-                      <div class="col-lg-4 col-center-block">
-                      {!! Form::label('centro','Centro') !!}<br>
-                      {!! Form::select
-                            ('centro', ['Seleccione su centro'=> 'disable' = true,
-                                    'Centros Universitarios Temáticos' =>
-                                      [
-                                       'CUCEI' => 'CUCEI',
-                                       'CUCEA' => 'CUCEA',
-                                       'CUCBA' => 'CUCBA',
-                                       'CUAAD' => 'CUAAD',
-                                       'CUCS' => 'CUCS',
-                                       'CUCSH' => 'CUCSH'
-                                      ],
+                                          <div class="col-lg-4 col-center-block">
+                                          {!! Form::label('centro','Centro') !!}<br>
+                                          {!! Form::select
+                                                ('centro', ['Seleccione su centro'=> 'disable' = true,
+                                                        'Centros Universitarios Temáticos' =>
+                                                          [
+                                                           'CUCEI' => 'CUCEI',
+                                                           'CUCEA' => 'CUCEA',
+                                                           'CUCBA' => 'CUCBA',
+                                                           'CUAAD' => 'CUAAD',
+                                                           'CUCS' => 'CUCS',
+                                                           'CUCSH' => 'CUCSH'
+                                                          ],
 
-                                   'Centros Universitarios Regionales' =>
-                                     ['CUALTOS' => 'CUALTOS',
-                                      'CUCIÈNEGA' => 'CUCIÈNEGA',
-                                      'CUCOSTA' => 'CUCOSTA',
-                                      'CUCSUR' => 'CUCSUR',
-                                      'CULAGOS' => 'CULAGOS',
-                                      'CUNORTE' => 'CUNORTE',
-                                      'CUSUR' => 'CUSUR',
-                                      'CUVALLES' => 'CUVALLES',
-                                      'CUTONALA' => 'CUTONALA'
-                                      ],
-                                      'Sistemas ' =>
-                                           ['SUV - UDG Virtual ' => 'SUV - UDG Virtual ',
-                                             'SEMS'=> 'SEMS'
+                                                       'Centros Universitarios Regionales' =>
+                                                         ['CUALTOS' => 'CUALTOS',
+                                                          'CUCIÈNEGA' => 'CUCIÈNEGA',
+                                                          'CUCOSTA' => 'CUCOSTA',
+                                                          'CUCSUR' => 'CUCSUR',
+                                                          'CULAGOS' => 'CULAGOS',
+                                                          'CUNORTE' => 'CUNORTE',
+                                                          'CUSUR' => 'CUSUR',
+                                                          'CUVALLES' => 'CUVALLES',
+                                                          'CUTONALA' => 'CUTONALA'
+                                                          ],
+                                                          'Sistemas ' =>
+                                                               ['SUV - UDG Virtual ' => 'SUV - UDG Virtual ',
+                                                                 'SEMS'=> 'SEMS'
 
-                                           ],
+                                                               ],
 
 
-                                  ]) !!} <br>
-                      {!! Form::label('correo','Correo') !!}<br>
-                      {!! Form::text('correo', null ) !!}<br>
-                      {!! Form::label('cargo','Cargo') !!}<br>
-                      {!! Form::text('cargo', null ) !!}<br>
-                    </div>
+                                                      ]) !!} <br>
+                                          {!! Form::label('correo','Correo') !!}<br>
+                                          {!! Form::text('correo', null ) !!}<br>
+                                          {!! Form::label('cargo','Cargo') !!}<br>
+                                          {!! Form::text('cargo', null ) !!}<br>
+                                        </div>
 
 
 
