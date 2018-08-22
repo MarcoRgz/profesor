@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="{{ app()->getLocale() }}">
 
 <head>
   <title>Profesores</title>
@@ -58,7 +57,6 @@
     </table>
     @endif
     <br><br>
-    <a href="{{ ('welcome') }}" class="btn btn-primary btn-block "> Inicio</a>
 
    </div>
 

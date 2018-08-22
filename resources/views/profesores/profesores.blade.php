@@ -16,7 +16,7 @@
         @if (Route::has('login'))
             <div class="top-right links">
                 @auth
-                    <a href="{{ route('profesor.index') }}">Inicio</a>
+                    <a href="{{('/') }}">Inicio</a>
                     <a href="{{ url('/logout') }}">Salir</a>
 
                 @else
@@ -126,7 +126,7 @@
     </table>
     @endif
     <br><br>
-    <a href="{{ ('/') }}" class="btn btn-primary btn-block "> Inicio </a>
+
 
    </div>
 
